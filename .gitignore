@@ -1,0 +1,119 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+conda-env/
+
+# Conda specific
+conda-meta/
+conda-bld/
+
+# PyTorch
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# Keras
+*.keras
+*.model
+*.h5
+
+# TensorFlow
+*.pb
+*.ckpt.*
+*.tflite
+*.tfrecord
+*checkpoint*
+saved_model/
+.keras/
+
+# scikit-learn
+*.joblib
+*.pickle
+*.pkl
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sql
+*.sqlite
+*.json
+*.parquet
+*.feather
+data/
+datasets/
+raw/
+processed/
+
+# Images and media
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.mov
+*.avi
+*.bmp
+*.tiff
+*.webp
+
+# Logs
+logs/
+*.log
+runs/
+tensorboard/
+wandb/
+
+# Configuration files
+*.yaml
+*.yml
+*.cfg
+*.toml
+!requirements.yml
+!environment.yml
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Large files and directories
+models/
+pretrained/
+checkpoints/
+weights/
+
+# Documentation
+docs/_build/
+site/
+
+# Misc
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
